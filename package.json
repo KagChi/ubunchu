@@ -1,0 +1,36 @@
+{
+  "name": "ubunchu",
+  "version": "1.0.0",
+  "description": "A manga featuring Ubuntu, written and drawn by Hiroshi Seo (Seotch) and published by ASCII MEDIA WORKS Inc.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KagChi/ubunchu.git"
+  },
+  "keywords": [],
+  "author": "KagChi",
+  "license": "CC-BY-3.0",
+  "bugs": {
+    "url": "https://github.com/KagChi/ubunchu/issues"
+  },
+  "homepage": "https://github.com/KagChi/ubunchu#readme",
+  "dependencies": {
+    "@sapphire/result": "^2.4.0",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.8",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "typescript": "4.7.4"
+  }
+}
