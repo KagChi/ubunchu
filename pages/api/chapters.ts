@@ -27,7 +27,7 @@ export default async function handler(
 
       if (!chapters.find(x => x.chapter.includes(item.name.split("/")[1]))) chapters.push({
         chapter: item.name.split("/")[1],
-        cover: `https://i.kagchi.my.id/ubunchu/chapter_01/${item.name.split("/")[2]}/PAGE_01.png`,
+        cover: `https://i.kagchi.my.id/ubunchu/${item.name.split("/")[1]}/${item.name.split("/")[2]}/PAGE_01.png`,
         languages
       });
     }
