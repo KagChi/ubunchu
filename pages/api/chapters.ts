@@ -21,7 +21,7 @@ export default async function handler(
       for (const item of chapterDirectories) {
         if (!languages.find(x => x.language.includes(item.name.split("/")[2]))) languages.push({
           language: item.name.split("/")[2],
-          cover: `https://i.kagchi.my.id/ubunchu/chapter_01/${item.name.split("/")[2]}/PAGE_01.png`
+          cover: `https://i.kagchi.my.id/ubunchu/${item.name.split("/")[1]}/${item.name.split("/")[2]}/PAGE_01.png`
         });
       }
 
